@@ -4,7 +4,7 @@ pragma solidity ^0.8.26;
 /**
  * @title ProofCloud
  * @notice A decentralized platform that allows users to store, verify, and retrieve
- *         document hashes securely on the blockchain — creating a transparent proof cloud.
+ *         document hashes securely on the blockchain ? creating a transparent proof cloud.
  */
 contract Project {
     address public admin;
@@ -69,7 +69,7 @@ contract Project {
     }
 
     /**
-     * @notice Retrieve a document’s details.
+     * @notice Retrieve a document?s details.
      * @param _id The document ID.
      * @return Document details struct.
      */
@@ -78,3 +78,6 @@ contract Project {
         return documents[_id];
     }
 }
+// 
+End
+// 
